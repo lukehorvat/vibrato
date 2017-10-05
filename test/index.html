@@ -23,6 +23,9 @@
     <script>
       const vibrato = require("../dist").default;
       const pkg = require("../package.json");
+      const { remote } = require("electron");
+
+      remote.webContents.getFocusedWebContents().openDevTools();
 
       let title = document.createElement("div");
       title.innerHTML = document.title = `${pkg.name} (v${pkg.version})`;
