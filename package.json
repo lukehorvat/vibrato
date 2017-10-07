@@ -1,6 +1,6 @@
 {
   "name": "vibrato",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web Audio API vibrato effect.",
   "author": "Luke Horvat",
   "license": "MIT",
